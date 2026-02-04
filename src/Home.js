@@ -56,7 +56,7 @@ export default function Home() {
           <h3>{s.title}</h3>
           <ul>
             {s.content.map((content, index) => (
-              <li key="index" className="skills-list">
+              <li key={index} className="skills-list">
                 {content}
               </li>
             ))}
@@ -66,5 +66,3 @@ export default function Home() {
     </div>
   );
 }
-
-function Sweets() {}

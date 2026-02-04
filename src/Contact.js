@@ -29,15 +29,11 @@ const skillsData = [
   },
 ];
 
-const text = `I’m a computer science–oriented student with a strong interest in front-end development.
-I enjoy building clean, user-friendly interfaces using modern web technologies and learning how real products are designed and structured.
-Currently, I focus on improving my React skills, writing better code, and building small projects that reflect real-world use cases`;
-
 const contacts = [
   {
     id: "email",
     label: "Email",
-    href: "https://mail.google.com/mail/?view=cm&fs=1&to=bolaterasyl085@email.com",
+    href: "mailto:bolaterasyl085@email.com",
     icon: emailIcon,
   },
   {

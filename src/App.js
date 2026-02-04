@@ -1,4 +1,10 @@
-import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  NavLink,
+  Navigate,
+} from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
@@ -8,30 +14,30 @@ function App() {
     <div className="app-bg">
       <BrowserRouter>
         <nav className="app-r">
-          <Link
+          <NavLink
             to="/"
             className={({ isActive }) =>
               isActive ? "rout-c active" : "rout-c"
             }
           >
             Blog
-          </Link>
-          <Link
-            to="about"
+          </NavLink>
+          <NavLink
+            to="/about"
             className={({ isActive }) =>
               isActive ? "rout-c active" : "rout-c"
             }
           >
             Projects
-          </Link>
-          <Link
-            to="contact"
+          </NavLink>
+          <NavLink
+            to="/contact"
             className={({ isActive }) =>
               isActive ? "rout-c active" : "rout-c"
             }
           >
             About
-          </Link>
+          </NavLink>
         </nav>
 
         <Routes>

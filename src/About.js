@@ -43,10 +43,10 @@ export default function About() {
     <div className="skills-card">
       {projectsData.map((d) => (
         <div key={d.id}>
-          <img src={d.icon} alt={d.label} className="picture-a" />
+          <img src={d.icon} alt={d.title} className="picture-a" />
           <h3>{d.title}</h3>
           <ul>
-            {`project built using ${d.tech}`}
+            <li>Project built using {d.tech}</li>
             {d.points.map((points, index) => (
               <li key={index} className="skills-list">
                 {points}
