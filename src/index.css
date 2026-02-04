@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: white center/cover no-repeat;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.app-bg {
+  text-align: center;
+}
+
+.app-r {
+  display: inline-flex;
+  gap: 8px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.app-r a,
+.app-r a:visited {
+  color: #111 !important;
+  text-decoration: none !important;
+  position: relative;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  padding-bottom: 10px;
+}
+
+.app-r a:hover {
+  background: #f2f2f2;
+}
+
+.app-r a::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  bottom: 4px;
+  width: 18px;
+  height: 2px;
+  background: #111;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
+.app-r a:hover::after {
+  transform: scaleX(1);
+}
+
+.rout-c {
+  color: #111;
+  text-decoration: none;
+}
+
+.rout-c:visited {
+  color: #111;
+}
+
+.rout-c:hover {
+  text-decoration: none;
+}
+
+.cont-p {
+  display: block;
+}
+
+.contact-icons {
+  height: flex;
+  gap: 16px;
+  align-items: center;
+}
+.contact-icon img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.contact-icon img:hover {
+  transform: scale(1.08);
+}
+
+.about-me {
+  min-height: 10vh;
+  padding: 40px 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.skills-card {
+  width: min(800px, 100%);
+  text-align: left;
+  margin: 0 auto;
+}
+
+.skills-card h2,
+.skills-card h3 {
+  text-align: center;
+}
+
+.skills-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.icon {
+  margin-top: 20px;
+  width: 100px;
+  height: 30hv;
+  border-radius: 100px;
+}
+
+.picture-a {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+}
