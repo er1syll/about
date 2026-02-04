@@ -58,12 +58,8 @@ code {
   text-decoration: none;
 }
 
-.rout-c:visited {
-  color: #111;
-}
-
-.rout-c:hover {
-  text-decoration: none;
+.rout-c.active {
+  background: #eee;
 }
 
 .cont-p {
@@ -71,10 +67,10 @@ code {
 }
 
 .contact-icons {
-  height: flex;
   gap: 16px;
   align-items: center;
 }
+
 .contact-icon img {
   width: 30px;
   height: 30px;
@@ -87,44 +83,19 @@ code {
   transform: scale(1.08);
 }
 
-.about-me {
-  min-height: 10vh;
-  padding: 40px 24px;
-  display: flex;
-  justify-content: center;
-}
-
-.skills-page {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
-}
-
 .skills-card {
   width: min(800px, 100%);
   text-align: left;
   margin: 0 auto;
 }
 
-.skills-card h2,
-.skills-card h3 {
-  text-align: center;
-}
-
-.skills-page {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 40px 20px;
+.skills-list {
+  margin-bottom: 6px;
 }
 
 .icon {
   margin-top: 20px;
   width: 100px;
-  height: 30hv;
   border-radius: 100px;
 }
 

@@ -5,6 +5,7 @@ import {
   NavLink,
   Navigate,
 } from "react-router-dom";
+
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
@@ -22,6 +23,7 @@ function App() {
           >
             Blog
           </NavLink>
+
           <NavLink
             to="/about"
             className={({ isActive }) =>
@@ -30,6 +32,7 @@ function App() {
           >
             Projects
           </NavLink>
+
           <NavLink
             to="/contact"
             className={({ isActive }) =>
@@ -50,4 +53,5 @@ function App() {
     </div>
   );
 }
+
 export default App;

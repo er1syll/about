@@ -38,7 +38,7 @@ const contacts = [
   },
   {
     id: "github",
-    label: "  Github",
+    label: " Github",
     href: "https://github.com/er1syll",
     icon: github,
   },
@@ -54,6 +54,7 @@ export default function Contact() {
   return (
     <div className="cont-p">
       <img src={myIcon} alt="My icon" className="icon" />
+
       <div className="skills-card">
         {skillsData.map((section) => (
           <section key={section.id}>
@@ -68,6 +69,7 @@ export default function Contact() {
           </section>
         ))}
       </div>
+
       <h4>Contacts</h4>
       <div className="contact-icons">
         {contacts.map((c) => (
