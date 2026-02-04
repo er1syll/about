@@ -33,7 +33,7 @@ const contacts = [
   {
     id: "email",
     label: "Email",
-    href: "mailto:bolaterasyl085@email.com",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=bolaterasyl085@email.com",
     icon: emailIcon,
   },
   {
